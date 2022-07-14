@@ -435,8 +435,6 @@ a {
     left: 15px;
 }
 
-
-
 .comment {
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -444,7 +442,7 @@ a {
     outline: transparent;
     padding: 12px 16px;
     height: 120px;
-
+    
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -453,6 +451,7 @@ a {
 .comment:focus {
     border-color: var(--accent-color);
 }
+
 
 .label-checkbox {
     display: flex;
@@ -885,7 +884,7 @@ a {
     font-size: 14px;
     margin-bottom: 20px;
     color: #FFFFFF;
-    
+    text-transform: uppercase;
 }
 
 .footer-list-link {
